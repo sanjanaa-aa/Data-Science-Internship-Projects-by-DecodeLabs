@@ -1,0 +1,26 @@
+WEEK 2 - CREDIT DEFAULT PREDICTION
+
+Dataset:
+Default of Credit Card Clients Dataset (UCI Repository)
+
+Model 1: Logistic Regression
+--------------------------------
+Precision : 0.3865
+Recall    : 0.5666
+ROC-AUC   : 0.6573
+
+Model 2: Random Forest
+--------------------------------
+Precision : 0.5067
+Recall    : 0.4890
+ROC-AUC   : 0.6778
+
+Final Comparison
+--------------------------------
+Logistic Regression ROC-AUC : 0.6573
+Random Forest ROC-AUC       : 0.6778
+
+Best Model: Random Forest
+
+Conclusion:
+Random Forest achieved the highest ROC-AUC score and better precision compared to Logistic Regression. Therefore, Random Forest was selected as the final model for predicting credit card payment defaults.
