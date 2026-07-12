@@ -1,0 +1,89 @@
+WEEK 3 - CUSTOMER SEGMENTATION USING K-MEANS CLUSTERING
+
+Dataset:
+Online Shoppers Purchasing Intention Dataset
+
+Dataset Information:
+- Total Records: 12330
+- Original Columns: 18
+- Features Used for Clustering: 17
+
+Data Preprocessing:
+- Checked for missing values
+- Removed Revenue column
+- Encoded Month column
+- Encoded VisitorType column
+- Converted Weekend column to numeric format
+- Applied StandardScaler for feature scaling
+
+PCA Results:
+- Reduced 17 features to 2 principal components
+
+Explained Variance Ratio:
+PC1 = 0.2009
+PC2 = 0.1057
+
+Total Variance Retained:
+30.67%
+
+Elbow Method Results:
+
+WCSS Values:
+K=1 : 64279.87
+K=2 : 40757.67
+K=3 : 22714.13
+K=4 : 16599.28
+K=5 : 12932.62
+K=6 : 10453.69
+K=7 : 8571.93
+K=8 : 6955.86
+K=9 : 5962.57
+K=10: 5263.06
+
+Silhouette Scores:
+K=2 : 0.5312
+K=3 : 0.5907
+K=4 : 0.5020
+K=5 : 0.3844
+K=6 : 0.4051
+K=7 : 0.4289
+K=8 : 0.4316
+K=9 : 0.4272
+K=10: 0.4137
+
+Optimal Number of Clusters:
+K = 3
+
+Cluster Distribution:
+Cluster 0 : 9626 customers
+Cluster 1 : 1550 customers
+Cluster 2 : 1154 customers
+
+Customer Personas:
+
+Cluster 0 - Regular Visitors
+- Medium browsing activity
+- Average engagement
+- Largest customer group
+
+Cluster 1 - Highly Engaged Customers
+- High administrative and product-related activity
+- Spend more time on the website
+- Most valuable customer segment
+
+Cluster 2 - Low Engagement Customers
+- Very low activity
+- Visit fewer pages
+- Least engaged segment
+
+Visualizations Created:
+- Elbow Method Graph
+- PCA Cluster Visualization
+
+Conclusion:
+Successfully performed customer segmentation using 
+PCA, Elbow Method, Silhouette Score, and K-Means 
+Clustering. The optimal number of clusters was found 
+to be 3. The customers were grouped into meaningful 
+segments that can help businesses understand user 
+behavior and improve marketing strategies.

@@ -1,20 +1,24 @@
-# DecodeLabs Week 1 Project
+# Week 1: Advanced EDA and Feature Engineering
 
-## Project Title
-Advanced EDA and Feature Engineering
+## Description
 
-## Objective
-Transform raw data into a clean dataset ready for machine learning.
+This project focuses on data cleaning, preprocessing, and feature engineering to prepare raw data for machine learning applications. The dataset was cleaned by handling missing values, removing outliers, and creating new useful features.
+
+## Dataset
+
+- Dataset: Retail Sales Dataset
+- Original Shape: (1200, 14)
+- Final Shape: (1192, 17)
 
 ## Tasks Performed
 
 ### 1. Missing Value Handling
-- Identified missing values in CouponCode column.
-- Filled missing values using the most frequent coupon code (FREESHIP).
+- Identified missing values in the CouponCode column.
+- Filled missing values using the most frequent coupon code.
 
 ### 2. Outlier Detection and Removal
-- Used the IQR (Interquartile Range) method.
-- Removed outliers from TotalPrice column.
+- Applied the IQR (Interquartile Range) method.
+- Removed outliers from the TotalPrice column.
 
 ### 3. Feature Engineering
 Created the following new features:
@@ -22,17 +26,37 @@ Created the following new features:
 - OrderMonth
 - OrderYear
 
-### 4. Final Dataset
-- Original Shape: (1200, 14)
-- Final Shape: (1192, 17)
+### 4. Data Export
+- Saved the cleaned dataset as `cleaned_dataset.xlsx`.
 
-## Tools Used
+## Technologies Used
+
 - Python
 - Pandas
 - NumPy
+- OpenPyXL
 - VS Code
 
-## Files
-- project1.py
-- cleaned_dataset.xlsx
-- README.md
+## Project Files
+
+- `project1.py`
+- `cleaned_dataset.xlsx`
+- `README.md`
+
+## How to Run
+
+```bash
+python project1.py
+```
+
+## Output
+
+- Cleaned dataset generated successfully.
+- Missing values handled.
+- Outliers removed.
+- New features created.
+- Dataset exported to Excel format.
+
+## Conclusion
+
+The raw dataset was successfully transformed into a clean and machine-learning-ready dataset through preprocessing and feature engineering techniques.
