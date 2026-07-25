@@ -1,0 +1,60 @@
+WEEK 4 PROJECT RESULTS
+======================
+
+Project Title:
+Sentiment Analysis using NLP
+
+Dataset Summary
+---------------
+Total Reviews: 2748
+
+Class Distribution:
+Positive Reviews (1): 1386
+Negative Reviews (0): 1362
+
+Missing Values:
+Review       0
+Sentiment    0
+
+Text Preprocessing Completed
+----------------------------
+1. Tokenization
+2. Stop-word Removal
+3. Lemmatization
+
+Feature Extraction
+------------------
+TF-IDF Shape:
+(2748, 5155)
+
+Train-Test Split
+----------------
+Training Data: 80%
+Testing Data: 20%
+
+Model Used
+----------
+Logistic Regression
+
+Performance Metrics
+-------------------
+Accuracy: 0.82
+
+Classification Report
+
+Class 0 (Negative Reviews)
+Precision: 0.83
+Recall: 0.83
+F1-Score: 0.83
+
+Class 1 (Positive Reviews)
+Precision: 0.81
+Recall: 0.81
+F1-Score: 0.81
+
+Overall Accuracy:
+82%
+
+Conclusion
+----------
+The Logistic Regression model successfully classified customer reviews into positive and negative categories with an accuracy of 82%. NLP preprocessing techniques and TF-IDF vectorization helped improve model performance.
